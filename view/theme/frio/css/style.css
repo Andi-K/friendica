@@ -1470,7 +1470,7 @@ section #jotOpen {
     word-wrap: break-word;
 }
 
-/* Thread hover effects */
+/* Thread hover effects * /
 .wall-item-container .wall-item-content a,
 .wall-item-container a,
 .wall-item-container .fakelink,
@@ -1491,7 +1491,7 @@ section #jotOpen {
 .wall-item-container:hover .wall-item-content a,
 .wall-item-container:hover .wall-item-name,
 .wall-item-container:hover .wall-item-location a {
-    /*color: #6fdbe8;*/
+    /*color: #6fdbe8;* /
     color: $link_color;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
@@ -1499,7 +1499,7 @@ section #jotOpen {
     -ms-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
 }
-
+*/
 /* wall items */
 .wall-item-container {
     position: relative;
@@ -1737,7 +1737,7 @@ code > .hl-main {
 }
 .wall-item-actions, .wall-item-actions a, .wall-item-actions button {
     font-size: 13px;
-    color: #555;
+    color: #919191;
     margin-bottom: 0;
 }
 .wall-item-actions .active {
@@ -1774,7 +1774,7 @@ code > .hl-main {
     margin: 0 .3em;
 }
 
-/* wall item hover effects */
+/* wall item hover effects * /
 .wall-item-container .wall-item-links,
 .wall-item-container .wall-item-actions,
 .wall-item-container .body-attach > a {
@@ -1797,6 +1797,12 @@ code > .hl-main {
 }
 .wall-item-container .wall-item-body .body-attach > a:hover {
     opacity: 1;
+}
+*
+.wall-item-container .wall-item-links,
+.wall-item-container .wall-item-actions,
+.wall-item-container .body-attach > a {
+    color: #919191;
 }
 
 /*
@@ -2012,7 +2018,7 @@ ul.dropdown-menu li:hover {
 .media .location,
 .media .location a {
     font-size: 11px;
-    color: #bebebe;
+    color: #919191;
 }
 .media-list > li {
     padding: 10px;
@@ -3196,6 +3202,3 @@ section .profile-match-wrapper {
     }
 
 }
-
-
-
